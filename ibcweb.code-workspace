@@ -7,5 +7,7 @@
 			"path": "C:\\Users\\zky\\Downloads\\Compressed\\AdminBSBMaterialDesign-master"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"editor.fontSize": 12
+	}
 }
