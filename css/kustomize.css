@@ -1,3 +1,6 @@
+div {
+	border: solid 1px black;
+}
 body {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -20,7 +23,6 @@ body {
 	border: solid 1px white;
 	color: white;
 	opacity: 0.9;
-	
 	
 }
 .btn-login: hover {
@@ -62,4 +64,45 @@ body {
   	-webkit-text-stroke-color: white; 
 }
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~SECTION 2 event~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~SECTION 2 About~~~~~~~~~~~~~~~~~~~~~~~~*/
+#sect2about {
+	height: 100vh;
+	padding: 30vh 0;
+	background-image: url(../image/bgsec2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+.tittle-sec {
+	padding: 5% ;
+	font-size: 2em;
+	color: white;
+	font-weight: bold;
+}
+.konten-sec {
+	width: 70%;
+	font-size: 1.2em;
+	color: white;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~SECTION 3 event~~~~~~~~~~~~~~~~~~~~~~~~*/
+#sect3event {
+	height: 100vh;
+	padding: 10vh 0;
+	background-color: white;
+	color: #1C659C;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+#sect3event .tittle-sec {
+	padding: 5% 5% 1% 5%;
+	font-size: 2em;
+	color: #1C659C;
+	font-weight: bold;
+}
+#sect3event .konten-sec {
+	width: 70%;
+	font-size: 1.2em;
+	color: #1C659C;
+}

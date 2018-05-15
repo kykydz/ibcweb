@@ -12,15 +12,16 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-
     <!-- Bootstrap Core Css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!------ Include the above in your HEAD tag ---------->
 
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
     <link rel="stylesheet" type="text/css" href="css/kustomize.css">
-    <style type="text/css">/*
-    	div { border: solid 1px black; }
-    	ul li { border: solid 1px black; }*/
-    </style>
+	<link rel="stylesheet" type="text/css" href="css/card-sliders.css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	
 </head>
 	
 <body>
@@ -41,7 +42,7 @@
 	                <a class="nav-link" href="#">Tentang Kami</a>
 	            </li>
 	            <li class="nav-item">
-	                <a class="nav-link" href="#">Kontaks	</a>
+	                <a class="nav-link" href="#">Kontak</a>
 	            </li>
 	        </ul>
 	        <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
@@ -73,8 +74,187 @@
 			</div>
 		</div>
 	</section>
+	<section id="sect2about">
+		<div class="container" align="center">
+			<div class="tittle-sec">
+				<h1><strong>Tentang Kami</strong></h1>
+			</div>
+			<div class="konten-sec">
+				<p style="line-height: 160%">Indonesia Banker Club (IBC) merupakan asosiasi/perkumpulan/komunitas bankers maupun ex-bankers dari seluruh Indonesia.
+				Perkumpulan ini bersifat terbuka, lintas bank, provinsi, dan mengusung persaudaraan.
+				IBC memiliki forum diskusi online di WhatsApp Group (by Regional dan segment).</p>
+			</div>
+		</div>
+	</section>
+	<section id="sect3event">
+		<div class="container" align="center">
+			<div class="row">
+				<div class="col">
+					<div class="tittle-sec">
+						<h1><strong>Event</strong></h1>
+					</div>
+					<div class="konten-sec">
+						<p style="line-height: 160%">Indonesia Banker Club (IBC) merupakan asosiasi/perkumpulan/komunitas bankers maupun ex-bankers dari seluruh Indonesia.
+						Perkumpulan ini bersifat terbuka, lintas bank, provinsi, dan mengusung persaudaraan.
+						IBC memiliki forum diskusi online di WhatsApp Group (by Regional dan segment).</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+						<div class="container">
+								<div class="row">
+									<div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+										<div class="MultiCarousel-inner">
+											<div class="item">
+												<div class="pad15">
+													<p class="lead">Multi Item Carousel</p>
+													<p>₹ 1</p>
+													<p>₹ 6000</p>
+													<p>50% off</p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="pad15">
+													<p class="lead">Multi Item Carousel</p>
+													<p>₹ 1</p>
+													<p>₹ 6000</p>
+													<p>50% off</p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="pad15">
+													<p class="lead">Multi Item Carousel</p>
+													<p>₹ 1</p>
+													<p>₹ 6000</p>
+													<p>50% off</p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="pad15">
+													<p class="lead">Multi Item Carousel</p>
+													<p>₹ 1</p>
+													<p>₹ 6000</p>
+													<p>50% off</p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="pad15">
+													<p class="lead">Multi Item Carousel</p>
+													<p>₹ 1</p>
+													<p>₹ 6000</p>
+													<p>50% off</p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="pad15">
+													<p class="lead">Multi Item Carousel</p>
+													<p>₹ 1</p>
+													<p>₹ 6000</p>
+													<p>50% off</p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="pad15">
+													<p class="lead">Multi Item Carousel</p>
+													<p>₹ 1</p>
+													<p>₹ 6000</p>
+													<p>50% off</p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="pad15">
+													<p class="lead">Multi Item Carousel</p>
+													<p>₹ 1</p>
+													<p>₹ 6000</p>
+													<p>50% off</p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="pad15">
+													<p class="lead">Multi Item Carousel</p>
+													<p>₹ 1</p>
+													<p>₹ 6000</p>
+													<p>50% off</p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="pad15">
+													<p class="lead">Multi Item Carousel</p>
+													<p>₹ 1</p>
+													<p>₹ 6000</p>
+													<p>50% off</p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="pad15">
+													<p class="lead">Multi Item Carousel</p>
+													<p>₹ 1</p>
+													<p>₹ 6000</p>
+													<p>50% off</p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="pad15">
+													<p class="lead">Multi Item Carousel</p>
+													<p>₹ 1</p>
+													<p>₹ 6000</p>
+													<p>50% off</p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="pad15">
+													<p class="lead">Multi Item Carousel</p>
+													<p>₹ 1</p>
+													<p>₹ 6000</p>
+													<p>50% off</p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="pad15">
+													<p class="lead">Multi Item Carousel</p>
+													<p>₹ 1</p>
+													<p>₹ 6000</p>
+													<p>50% off</p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="pad15">
+													<p class="lead">Multi Item Carousel</p>
+													<p>₹ 1</p>
+													<p>₹ 6000</p>
+													<p>50% off</p>
+												</div>
+											</div>
+											<div class="item">
+												<div class="pad15">
+													<p class="lead">Multi Item Carousel</p>
+													<p>₹ 1</p>
+													<p>₹ 6000</p>
+													<p>50% off</p>
+												</div>
+											</div>
+										</div>
+										<button class="btn btn-primary leftLst"><</button>
+										<button class="btn btn-primary rightLst">></button>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12 text-center">
+										<br/><br/><br/>
+										<hr/>
+										<p>Settings</p>
+										<p>Change data items for xs,sm,md and lg display items respectively. Ex:data-items="1,3,5,6"</p>
+										<p>Change data slide for slides per click Ex:data-slide="1"</p>
+									</div>
+								</div>
+							</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
