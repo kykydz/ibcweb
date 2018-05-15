@@ -1,0 +1,65 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+	padding: 20px 15%; 
+	background-color: #257bba;
+	/*background-color: transparent;*/
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: rgba(255,255,255,1);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: rgba(255,255,255,1);
+}
+
+
+/*======================own style here==========================*/
+
+.navbar-dark .navbar-nav .btn-login {
+	border: solid 1px white;
+	color: white;
+	opacity: 0.9;
+	
+	
+}
+.btn-login: hover {
+	color: black;
+}
+
+.btn-reg {
+	background: linear-gradient(to right, #F9CE27, #FE8F1B);
+	color: white;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~SECTION 1 jumbo~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#secthead {
+	height: 100vh;
+	padding: 20vh 0;
+	background-image: url(../image/bgsec.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+.konten-jumbo {
+	width: 100%;
+	height: 60vh;
+	padding: 20vh 2%;
+	color: white;	
+}
+.konten-jumbo h1, h2, h3, h4 { 
+	line-height: 100%; 
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: #257bba; 
+}
+.konten-jumbo p {
+	font-size: 0.875em;
+}
+.ex { 	
+	font-size: 1.1em;
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: white; 
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~SECTION 2 event~~~~~~~~~~~~~~~~~~~~~~~~*/
