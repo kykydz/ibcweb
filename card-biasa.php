@@ -4,7 +4,7 @@
                 <div class="card-deck">
 	                <div class="card h-100" style="text-align: left;">
 	                    <div class="card-img-top withbg" >
-	                        <!-- <img class="img-fluid" src="image/dd.jpg" alt="Carousel 1"> -->
+	                        <img class="img-fluid" src="image/dd.jpg" alt="Carousel 1">
 	                    </div>
 	                    <div class="card-body pt-2">
 	                    	<div class="row desc1">
@@ -34,7 +34,7 @@
 					</div>
 					<div class="card h-100" style="text-align: left;">
 	                    <div class="card-img-top withbg" >
-	                        <!-- <img class="img-fluid" src="image/dd.jpg" alt="Carousel 1"> -->
+	                        <img class="img-fluid" src="image/dd.jpg" alt="Carousel 1">
 	                    </div>
 	                    <div class="card-body pt-2">
 	                    	<div class="row desc1">
@@ -64,7 +64,7 @@
 					</div>
 					<div class="card h-100" style="text-align: left;">
 	                    <div class="card-img-top withbg" >
-	                        <!-- <img class="img-fluid" src="image/dd.jpg" alt="Carousel 1"> -->
+	                        <img class="img-fluid" src="image/dd.jpg" alt="Carousel 1">
 	                    </div>
 	                    <div class="card-body pt-2">
 	                    	<div class="row desc1">
@@ -98,7 +98,7 @@
 				<div class="card-deck">
 	                <div class="card h-100" style="text-align: left;">
 	                    <div class="card-img-top withbg" >
-	                        <!-- <img class="img-fluid" src="image/dd.jpg" alt="Carousel 1"> -->
+	                        <img class="img-fluid" src="image/dd.jpg" alt="Carousel 1">
 	                    </div>
 	                    <div class="card-body pt-2">
 	                    	<div class="row desc1">
@@ -128,7 +128,7 @@
 					</div>
 					<div class="card h-100" style="text-align: left;">
 	                    <div class="card-img-top withbg" >
-	                        <!-- <img class="img-fluid" src="image/dd.jpg" alt="Carousel 1"> -->
+	                        <img class="img-fluid" src="image/dd.jpg" alt="Carousel 1">
 	                    </div>
 	                    <div class="card-body pt-2">
 	                    	<div class="row desc1">
@@ -158,7 +158,7 @@
 					</div>
 					<div class="card h-100" style="text-align: left;">
 	                    <div class="card-img-top withbg" >
-	                        <!-- <img class="img-fluid" src="image/dd.jpg" alt="Carousel 1"> -->
+	                        <img class="img-fluid" src="image/dd.jpg" alt="Carousel 1">
 	                    </div>
 	                    <div class="card-body pt-2">
 	                    	<div class="row desc1">

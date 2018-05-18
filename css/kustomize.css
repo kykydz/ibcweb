@@ -159,10 +159,15 @@ p.diff{
 	height: 200px;
 	border-top-left-radius: 3%;
 	border-top-right-radius: 3%;
-	background: url(../image/dd.jpg);
-	background-size: cover;
+	/*background: url(../image/dd.jpg);*/
+	overflow-y: hidden;
+
+	/*background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center;*/
+}
+.img-fluid {
+	object-position: -10% -50%;
 }
 .btn-mid {
 	padding-top: 1.5%;
@@ -263,6 +268,10 @@ hr {
 	-webkit-text-stroke-width: 1px;
   	-webkit-text-stroke-color: #257bba; 
 }
+img { 
+	object-fit: cover; 
+	object-position: center;
+}
 .decks {
 	padding: 50%;
 }
@@ -278,13 +287,14 @@ hr {
 }
 .img-cardz {
 	width: 100%;
-	height: 30vh;
+	height: 250px;
+	overflow-y: hidden;
 	border-top-left-radius: 3%;
 	border-top-right-radius: 3%;
-	background: url(../image/dd.jpg);
-	background-size: cover;
+	/*background: url(../image/dd.jpg);*/
+/*	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center;*/
 }
 .cardz-tittle {
 	color: #1C659C;
@@ -332,4 +342,31 @@ hr {
 	color: black;
 	font-weight: bold;
 	background: linear-gradient(to right, #e8e8e8, #a8a8a8);
+}
+.mores {
+	text-align: center;
+	padding: 3% 4%;
+}
+.mores .btndef {
+	color: white;
+	padding: 1% 3%;
+	background-color: #1C659C;
+	text-decoration: none;
+}
+.mores .btndef:hover {
+	color: #1C659C;
+	padding: 1% 3%;
+	background-color: transparent;
+	text-decoration: none;
+	border: solid 2px #1C659C;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~SECTION footerr~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#kontaks {
+	background-color: #1C659C;
+}
+.container {
+	padding: 2% 1%;
+	
 }

@@ -257,7 +257,9 @@
 			<div class="row">
 				<div class="col-md-3">
 					<div class="cardz">
-						<div class="img-cardz">	</div>
+						<div class="img-cardz">	
+							<img src="image/dd.jpg" class="img-fluid" >
+						</div>
 						<div class="container konten-cardz">
 							<div class="cardz-tittle">
 								<h6 class="job-tittle">Bank Mandiri Syariah</h6>
@@ -311,35 +313,35 @@
 				</div>
 				<div class="col-md-3">
 					<div class="cardz">
-						<div class="img-cardz">
-							
+						<div class="img-cardz">	
+							<img src="image/dd.jpg" class="img-fluid" >
 						</div>
-						<div class="konten-cardz">
+						<div class="container konten-cardz">
 							<div class="cardz-tittle">
 								<h6 class="job-tittle">Bank Mandiri Syariah</h6>
 							</div>
 							<div class="cardz-desc">
 								<div class="row">
-									<div class="col-md-1">
+									<div class="col-1">
 										<i class="fas fa-suitcase"></i>
 									</div>
-									<div class="col-md-10">
+									<div class="col-10">
 										<p>Bank BRI Syariah</p> 
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-md-1">
+									<div class="col-1">
 										<i class="fas fa-suitcase"></i>
 									</div>
-									<div class="col-md-10">
+									<div class="col-10">
 										<p>Jakarta Selatan, DKI Jakarta Expense Only</p>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-md-1">
+									<div class="col-1">
 										<i class="fas fa-suitcase"></i>
 									</div>
-									<div class="col-md-10">
+									<div class="col-10">
 										<p ><span class="job-type">Internship</span></p>
 									</div>
 								</div>
@@ -349,15 +351,15 @@
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-md-3" align="right">
+									<div class="col-3" align="right">
 										<a class="btn btn-left">23</a>
 									</div>
-									<div class="col-md-8" align="left">
+									<div class="col-8" align="left">
 										<div class="row">
-											<p class="desc-left">DAYS LEFT TO APPLY</p>	
+											<p class="col desc-left">DAYS LEFT TO APPLY</p>	
 										</div>
 										<div class="row"> 
-											<p class="pelamars"><i class="fas fa-users"></i> Pelamar: 13</p>
+											<p class="col pelamars"><i class="fas fa-users"></i> Pelamar: 13</p>
 										</div>
 									</div>
 								</div>
@@ -367,35 +369,35 @@
 				</div>
 				<div class="col-md-3">
 					<div class="cardz">
-						<div class="img-cardz">
-							
+						<div class="img-cardz">	
+							<img src="image/dd.jpg" class="img-fluid" >
 						</div>
-						<div class="konten-cardz">
+						<div class="container konten-cardz">
 							<div class="cardz-tittle">
 								<h6 class="job-tittle">Bank Mandiri Syariah</h6>
 							</div>
 							<div class="cardz-desc">
 								<div class="row">
-									<div class="col-md-1">
+									<div class="col-1">
 										<i class="fas fa-suitcase"></i>
 									</div>
-									<div class="col-md-10">
+									<div class="col-10">
 										<p>Bank BRI Syariah</p> 
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-md-1">
+									<div class="col-1">
 										<i class="fas fa-suitcase"></i>
 									</div>
-									<div class="col-md-10">
+									<div class="col-10">
 										<p>Jakarta Selatan, DKI Jakarta Expense Only</p>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-md-1">
+									<div class="col-1">
 										<i class="fas fa-suitcase"></i>
 									</div>
-									<div class="col-md-10">
+									<div class="col-10">
 										<p ><span class="job-type">Internship</span></p>
 									</div>
 								</div>
@@ -405,15 +407,15 @@
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-md-3" align="right">
+									<div class="col-3" align="right">
 										<a class="btn btn-left">23</a>
 									</div>
-									<div class="col-md-8" align="left">
+									<div class="col-8" align="left">
 										<div class="row">
-											<p class="desc-left">DAYS LEFT TO APPLY</p>	
+											<p class="col desc-left">DAYS LEFT TO APPLY</p>	
 										</div>
 										<div class="row"> 
-											<p class="pelamars"><i class="fas fa-users"></i> Pelamar: 13</p>
+											<p class="col pelamars"><i class="fas fa-users"></i> Pelamar: 13</p>
 										</div>
 									</div>
 								</div>
@@ -423,35 +425,35 @@
 				</div>
 				<div class="col-md-3">
 					<div class="cardz">
-						<div class="img-cardz">
-							
+						<div class="img-cardz">	
+							<img src="image/dd.jpg" class="img-fluid" >
 						</div>
-						<div class="konten-cardz">
+						<div class="container konten-cardz">
 							<div class="cardz-tittle">
 								<h6 class="job-tittle">Bank Mandiri Syariah</h6>
 							</div>
 							<div class="cardz-desc">
 								<div class="row">
-									<div class="col-md-1">
+									<div class="col-1">
 										<i class="fas fa-suitcase"></i>
 									</div>
-									<div class="col-md-10">
+									<div class="col-10">
 										<p>Bank BRI Syariah</p> 
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-md-1">
+									<div class="col-1">
 										<i class="fas fa-suitcase"></i>
 									</div>
-									<div class="col-md-10">
+									<div class="col-10">
 										<p>Jakarta Selatan, DKI Jakarta Expense Only</p>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-md-1">
+									<div class="col-1">
 										<i class="fas fa-suitcase"></i>
 									</div>
-									<div class="col-md-10">
+									<div class="col-10">
 										<p ><span class="job-type">Internship</span></p>
 									</div>
 								</div>
@@ -461,15 +463,15 @@
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-md-3" align="right">
+									<div class="col-3" align="right">
 										<a class="btn btn-left">23</a>
 									</div>
-									<div class="col-md-8" align="left">
+									<div class="col-8" align="left">
 										<div class="row">
-											<p class="desc-left">DAYS LEFT TO APPLY</p>	
+											<p class="col desc-left">DAYS LEFT TO APPLY</p>	
 										</div>
 										<div class="row"> 
-											<p class="pelamars"><i class="fas fa-users"></i> Pelamar: 13</p>
+											<p class="col pelamars"><i class="fas fa-users"></i> Pelamar: 13</p>
 										</div>
 									</div>
 								</div>
@@ -479,10 +481,28 @@
 				</div>
 			</div>
 			<div class="row">
-
+				<div class="col-md-12 mores">
+					<a href="#" class="btndef">Muat Lebih Banyak</a>
+				</div>
 			</div>
 		</div>
 	</section>
+	<footer id="kontaks">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3" align="center">
+					<img src="image/ibc.png" class="img-fluid" width="180" height="auto">
+				</div>
+				<div class="col-md-5">
+					<div class="row">
+						<div class="">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 	
 	<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
 	<script src="js/bootstrap.min.js"></script>
