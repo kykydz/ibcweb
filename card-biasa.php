@@ -1,84 +1,198 @@
-<div class="container pt-0 mt-2">
+	<div class="container pt-0 mt-2">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="card-deck">
-                <div class="card h-100">
-                    <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="http://i.imgur.com/EW5FgJM.png" alt="Carousel 1">
-                    </div>
-                    <div class="card-body pt-2">
-                        <h6 class="small text-wide p-b-2">Insight</h6>
-                        <h2>
-                            <a href="">Why Stuff Happens Every Year.</a>
-                        </h2>
-                    </div>
-                </div>
-                <div class="card h-100">
-                    <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="http://i.imgur.com/Hw7sWGU.png" alt="Carousel 2">
-                    </div>
-                    <div class="card-body pt-2">
-                        <h6 class="small text-wide p-b-2">Development</h6>
-                        <h2>
-                            <a href="">How to Make Every Line Count.</a>
-                        </h2>
-                    </div>
-                </div>
-                <div class="card h-100">
-                    <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="http://i.imgur.com/g27lAMl.png" alt="Carousel 3">
-                    </div>
-                    <div class="card-body pt-2">
-                        <h6 class="small text-wide p-b-2">Design</h6>
-                        <h2>
-                            <a href="">Responsive is Essential.</a>
-                        </h2>
-                    </div>
-                </div>
-            </div>
+	                <div class="card h-100" style="text-align: left;">
+	                    <div class="card-img-top withbg" >
+	                        <!-- <img class="img-fluid" src="image/dd.jpg" alt="Carousel 1"> -->
+	                    </div>
+	                    <div class="card-body pt-2">
+	                    	<div class="row desc1">
+	                    		<div class="col-md-12">
+	                    			<h6>Labs Project 2018: Euphorade</h6>
+	                        		<p class="diff">Festival General</p>
+	                    		</div>
+	                    	</div>
+	                        <hr>
+	                        <div class="row desc2">
+	                        	<div class="col-md-8">
+	                        		<h6>Tanggal dan Waktu</h6>
+	                        		<p><i class="fas fa-calendar-alt"></i> 12 May 2018 - 12 June 2018</p>
+	                        	</div>
+	                        	<div class="col-md-4">
+	                        		<h6>Mulai</h6>
+	                        		<p class="diff">Rp. 10.000,-</p>
+	                        	</div>
+	                        </div>
+	                        <div class="row desc3">
+	                        	<div class="col-md-12">
+	                        		<h6>Lokasi</h6>
+	                        		<p><i class="fas fa-map-marker"></i> JIEXPO, DKI Jakarta</p>
+	                        	</div>
+	                        </div>
+	                    </div>
+					</div>
+					<div class="card h-100" style="text-align: left;">
+	                    <div class="card-img-top withbg" >
+	                        <!-- <img class="img-fluid" src="image/dd.jpg" alt="Carousel 1"> -->
+	                    </div>
+	                    <div class="card-body pt-2">
+	                    	<div class="row desc1">
+	                    		<div class="col-md-12">
+	                    			<h6>Labs Project 2018: Euphorade</h6>
+	                        		<p class="diff">Festival General</p>
+	                    		</div>
+	                    	</div>
+	                        <hr>
+	                        <div class="row desc2">
+	                        	<div class="col-md-8">
+	                        		<h6>Tanggal dan Waktu</h6>
+	                        		<p><i class="fas fa-calendar-alt"></i> 12 May 2018 - 12 June 2018</p>
+	                        	</div>
+	                        	<div class="col-md-4">
+	                        		<h6>Mulai</h6>
+	                        		<p class="diff">Rp. 10.000,-</p>
+	                        	</div>
+	                        </div>
+	                        <div class="row desc3">
+	                        	<div class="col-md-12">
+	                        		<h6>Lokasi</h6>
+	                        		<p><i class="fas fa-map-marker"></i> JIEXPO, DKI Jakarta</p>
+	                        	</div>
+	                        </div>
+	                    </div>
+					</div>
+					<div class="card h-100" style="text-align: left;">
+	                    <div class="card-img-top withbg" >
+	                        <!-- <img class="img-fluid" src="image/dd.jpg" alt="Carousel 1"> -->
+	                    </div>
+	                    <div class="card-body pt-2">
+	                    	<div class="row desc1">
+	                    		<div class="col-md-12">
+	                    			<h6>Labs Project 2018: Euphorade</h6>
+	                        		<p class="diff">Festival General</p>
+	                    		</div>
+	                    	</div>
+	                        <hr>
+	                        <div class="row desc2">
+	                        	<div class="col-md-8">
+	                        		<h6>Tanggal dan Waktu</h6>
+	                        		<p><i class="fas fa-calendar-alt"></i> 12 May 2018 - 12 June 2018</p>
+	                        	</div>
+	                        	<div class="col-md-4">
+	                        		<h6>Mulai</h6>
+	                        		<p class="diff">Rp. 10.000,-</p>
+	                        	</div>
+	                        </div>
+	                        <div class="row desc3">
+	                        	<div class="col-md-12">
+	                        		<h6>Lokasi</h6>
+	                        		<p><i class="fas fa-map-marker"></i> JIEXPO, DKI Jakarta</p>
+	                        	</div>
+	                        </div>
+	                    </div>
+					</div>
+            	</div>
             </div>
             <div class="carousel-item">
-                <div class="card-deck">
-                <div class="card">
-                    <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="//visualhunt.com/photos/l/1/office-student-work-study.jpg" alt="Carousel 4">
-                    </div>
-                    <div class="card-body pt-2">
-                        <h6 class="small text-wide p-b-2">Another</h6>
-                        <h2>
-                            <a href="">Tagline or Call-to-action.</a>
-                        </h2>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="//visualhunt.com/photos/l/1/working-woman-technology-computer.jpg" alt="Carousel 5">
-                    </div>
-                    <div class="card-body pt-2">
-                        <h6 class="small text-wide p-b-2"><span class="pull-xs-right">12.04</span> Category 1</h6>
-                        <h2>
-                            <a href="">This is a Blog Title.</a>
-                        </h2>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="//visualhunt.com/photos/l/1/people-office-team-collaboration.jpg" alt="Carousel 6">
-                    </div>
-                    <div class="card-body pt-2">
-                        <h6 class="small text-wide p-b-2">Category 3</h6>
-                        <h2>
-                            <a href="">Catchy Title of a Blog Post.</a>
-                        </h2>
-                    </div>
-                </div>
-            </div>
+				<div class="card-deck">
+	                <div class="card h-100" style="text-align: left;">
+	                    <div class="card-img-top withbg" >
+	                        <!-- <img class="img-fluid" src="image/dd.jpg" alt="Carousel 1"> -->
+	                    </div>
+	                    <div class="card-body pt-2">
+	                    	<div class="row desc1">
+	                    		<div class="col-md-12">
+	                    			<h6>Labs Project 2018: Euphorade</h6>
+	                        		<p class="diff">Festival General</p>
+	                    		</div>
+	                    	</div>
+	                        <hr>
+	                        <div class="row desc2">
+	                        	<div class="col-md-8">
+	                        		<h6>Tanggal dan Waktu</h6>
+	                        		<p><i class="fas fa-calendar-alt"></i> 12 May 2018 - 12 June 2018</p>
+	                        	</div>
+	                        	<div class="col-md-4">
+	                        		<h6>Mulai</h6>
+	                        		<p class="diff">Rp. 10.000,-</p>
+	                        	</div>
+	                        </div>
+	                        <div class="row desc3">
+	                        	<div class="col-md-12">
+	                        		<h6>Lokasi</h6>
+	                        		<p><i class="fas fa-map-marker"></i> JIEXPO, DKI Jakarta</p>
+	                        	</div>
+	                        </div>
+	                    </div>
+					</div>
+					<div class="card h-100" style="text-align: left;">
+	                    <div class="card-img-top withbg" >
+	                        <!-- <img class="img-fluid" src="image/dd.jpg" alt="Carousel 1"> -->
+	                    </div>
+	                    <div class="card-body pt-2">
+	                    	<div class="row desc1">
+	                    		<div class="col-md-12">
+	                    			<h6>Labs Project 2018: Euphorade</h6>
+	                        		<p class="diff">Festival General</p>
+	                    		</div>
+	                    	</div>
+	                        <hr>
+	                        <div class="row desc2">
+	                        	<div class="col-md-8">
+	                        		<h6>Tanggal dan Waktu</h6>
+	                        		<p><i class="fas fa-calendar-alt"></i> 12 May 2018 - 12 June 2018</p>
+	                        	</div>
+	                        	<div class="col-md-4">
+	                        		<h6>Mulai</h6>
+	                        		<p class="diff">Rp. 10.000,-</p>
+	                        	</div>
+	                        </div>
+	                        <div class="row desc3">
+	                        	<div class="col-md-12">
+	                        		<h6>Lokasi</h6>
+	                        		<p><i class="fas fa-map-marker"></i> JIEXPO, DKI Jakarta</p>
+	                        	</div>
+	                        </div>
+	                    </div>
+					</div>
+					<div class="card h-100" style="text-align: left;">
+	                    <div class="card-img-top withbg" >
+	                        <!-- <img class="img-fluid" src="image/dd.jpg" alt="Carousel 1"> -->
+	                    </div>
+	                    <div class="card-body pt-2">
+	                    	<div class="row desc1">
+	                    		<div class="col-md-12">
+	                    			<h6>Labs Project 2018: Euphorade</h6>
+	                        		<p class="diff">Festival General</p>
+	                    		</div>
+	                    	</div>
+	                        <hr>
+	                        <div class="row desc2">
+	                        	<div class="col-md-8">
+	                        		<h6>Tanggal dan Waktu</h6>
+	                        		<p><i class="fas fa-calendar-alt"></i> 12 May 2018 - 12 June 2018</p>
+	                        	</div>
+	                        	<div class="col-md-4">
+	                        		<h6>Mulai</h6>
+	                        		<p class="diff">Rp. 10.000,-</p>
+	                        	</div>
+	                        </div>
+	                        <div class="row desc3">
+	                        	<div class="col-md-12">
+	                        		<h6>Lokasi</h6>
+	                        		<p><i class="fas fa-map-marker"></i> JIEXPO, DKI Jakarta</p>
+	                        	</div>
+	                        </div>
+	                    </div>
+					</div>
+            	</div>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-12 text-md-right lead">
+            <div class="col-12 text-md-center lead">
                 <a class="btn btn-secondary-outline prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
                 <a class="btn btn-secondary-outline next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
             </div>
