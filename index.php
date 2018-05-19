@@ -21,20 +21,6 @@
     <link rel="stylesheet" type="text/css" href="css/multi-carousel.css">
 	<!-- <link rel="stylesheet" type="text/css" href="css/card-sliders.css"> -->
 
-<!-- 	<style type="text/css">
-		.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; height: 100%; position:relative; }
-    	.MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
-        .MultiCarousel .MultiCarousel-inner .item { float: left;}
-        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
-	    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
-	    .MultiCarousel .leftLst { left:0; }
-	    .MultiCarousel .rightLst { right:0; }
-    
-        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
-	</style> -->
-
-	
-
 </head>
 	
 <body>
