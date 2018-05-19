@@ -18,9 +18,10 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="css/kustomize.css">
+    <link rel="stylesheet" type="text/css" href="css/multi-carousel.css">
 	<!-- <link rel="stylesheet" type="text/css" href="css/card-sliders.css"> -->
 
-	<style type="text/css">
+<!-- 	<style type="text/css">
 		.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; height: 100%; position:relative; }
     	.MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
         .MultiCarousel .MultiCarousel-inner .item { float: left;}
@@ -30,7 +31,8 @@
 	    .MultiCarousel .rightLst { right:0; }
     
         .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
-	</style>
+	</style> -->
+
 	
 
 </head>
@@ -64,7 +66,7 @@
 	        </ul>
 	        <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
 	            <li class="nav-item" style="padding: 2%; width: 40%">
-	                <a class="nav-link btn btn-login" href="#">Masuk</a>
+	                <a href="#" class="nav-link btn btn-login" data-toggle="modal" data-target="#logins" >Masuk</a>
 	            </li>
 	            <li class="nav-item" style="padding: 2%; width: 40%">
 	                <a class="btn btn-reg nav-link" href="#">Daftar</a>
@@ -72,6 +74,43 @@
 	        </ul>
 	    </div>
 	</nav>
+
+	<div class="modal fade" id="logins" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-body">
+	      	<h5>Masuk</h5>
+	      	<form>
+			  <div class="form-group">
+			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan Email Anda">
+			  </div>
+			  <div class="form-group">
+			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Kata Sandi">
+			  </div>
+			  <div class="form-check">
+			  	<div class="row">
+			  		<div class="col-md-6">
+			  			<input type="checkbox">
+			    		<small>Tetap Login</small>
+			  		</div>
+			  		<div class="col-md-6" align="right">
+			    		<small class="mod-forgot"><a href="#"> Lupa kata sandi?</a></small>
+			  		</div>
+			  	</div>
+			  </div>
+			  <div class="form-group">
+			  	<div class="row mod-padd">
+			  		<div class="col" align="center">
+			  		<a href="#" class="btn btn-masuks">Masuk</a>		
+			  		</div>
+			  	</div>
+			    
+			  </div>
+			</form>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 
 	<section id="secthead">
 		<div class="container">
@@ -125,7 +164,8 @@
 			</div>
 			<div class="row">
 				<div class="col carousel slide" data-ride="carousel" id="postsCarousel" >
-					<?php include 'card-biasa.php' ?>
+					<!-- <?php include 'card-biasa.php' ?> -->
+					<?php include 'tests.php' ?>
 				</div>
 			</div>
 		</div>
@@ -488,17 +528,70 @@
 		</div>
 	</section>
 	<footer id="kontaks">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-3" align="center">
+				<div class="col-md-2" align="center">
 					<img src="image/ibc.png" class="img-fluid" width="180" height="auto">
+					<br>
+					<br>
+					<small style="text-align: left;">Support By : <br> <a href="wallezz.com">Wallezz Finansial Technology</a></small>
 				</div>
-				<div class="col-md-5">
-					<div class="row">
-						<div class="">
-							
+				<div class="col-md-6">
+					<div class="row  justify-content-md-center">
+						<div class="col-md-auto">
+							<span class="foot-nav">FORUM</span>
+						</div>
+						<div class="col-md-auto">
+							<span class="foot-nav">KLINIK PERBANKAN</span>
+						</div>
+						<div class="col-md-auto">
+							<span class="foot-nav">EVENT PERBANKAN</span>
+						</div>
+						<div class="col-md-auto">
+							<span class="foot-nav">LOKER PERBANKAN</span>
 						</div>
 					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="row">
+						<div class="col">
+							<p><a href="#">Beranda</a></p>
+							<p><a href="#about">Tentang Kami</a></p>
+							<p><a href="#kontaks">Kontak</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="row">
+						<div class="col-12">
+							<p>Hubungi Kami</p>
+							<p>Indonesia Bankers Club (1500046)</p>
+							<br>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3" style="color: white">
+							<a href="#"><img src="image/glyph-fb.png" alt=""></a>
+						</div>
+						<div class="col-3" style="color: white">
+							<a href="#"><img src="image/glyph-yt.png" alt=""></a>
+						</div>
+						<div class="col-3" style="color: white">
+							<a href="#"><img src="image/glyph-ig.png" alt=""></a>
+						</div>
+						<div class="col-3" style="color: white">
+							<a href="#"><img src="image/glyph-twitter.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-md-6">
+					<small>&#169; Hak Cipta 2018 Indonesia Bankers Club</small>
+				</div>
+				<div class="col-md-6" align="right">
+					<small>Indonesia Bankers Club terdaftar dan diawasi oleh Otoritas Jasa Keuangan</small>
 				</div>
 			</div>
 		</div>
@@ -509,7 +602,7 @@
 	<script src="js/popper.min.js"></script>
 	<!-- <script src="js/card-slider.js"/> -->
 	
-	<script>
+	<!-- <script>
 		(function($) {
 		    "use strict";
 		    // manual carousel controls
@@ -522,6 +615,46 @@
           interval: 600000,
           pause: "hover"
         });
+	</script> -->
+	<script type="text/javascript">
+		
+		$('#carouselExample').on('slide.bs.carousel', function (e) {
+		    var $e = $(e.relatedTarget);
+		    var idx = $e.index();
+		    var itemsPerSlide = 4;
+		    var totalItems = $('.carousel-item').length;
+		    
+		    if (idx >= totalItems-(itemsPerSlide-1)) {
+		        var it = itemsPerSlide - (totalItems - idx);
+		        for (var i=0; i<it; i++) {
+		            // append slides to end
+		            if (e.direction=="left") {
+		                $('.carousel-item').eq(i).appendTo('.carousel-inner');
+		            }
+		            else {
+		                $('.carousel-item').eq(0).appendTo('.carousel-inner');
+		            }
+		        }
+		    }
+		});
+
+		  $('#carouselExample').carousel({ 
+		                interval: 200000
+		        });
+
+		  $(document).ready(function() {
+		/* show lightbox when clicking a thumbnail */
+		    $('a.thumb').click(function(event){
+		      event.preventDefault();
+		      var content = $('.modal-body');
+		      content.empty();
+		        var title = $(this).attr("title");
+		        $('.modal-title').html(title);        
+		        content.html($(this).html());
+		        $(".modal-profile").modal({show:true});
+		    });
+
+		  });
 	</script>
 
 	<script>

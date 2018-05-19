@@ -365,7 +365,52 @@ img {
 
 #kontaks {
 	background-color: #1C659C;
+	color: white;
 }
-.container {
-	padding: 2% 1%;
+#kontaks a{
+	text-decoration: none;
+	color: white;
 }
+#kontaks a:hover{
+	text-decoration: none;
+	color: white;
+}
+.container-fluid {
+	padding: 2%;
+}
+.foot-nav {
+	font-size: 0.9em;
+	font-weight: bold;
+	color: white;
+}
+footer p{
+	padding: 0;
+	margin: 0;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MODAL ~~~~~~~~~~~~~~~~~~~~~~~~*/
+.modal-body h5{
+	text-align: center;
+	padding: 10% 3%;
+	font-size: 2em;
+}
+.btn-masuks{
+	margin: 3%;
+	color: white;
+	background: linear-gradient(to right, #F9CE27, #FE8F1B);
+	width: 60%;
+	border: none;
+}
+.mod-padd {
+	padding: 10% 0 3% 0;
+}
+.modal-dialog {
+	max-width: 400px;
+}
+.modal-body {
+	padding: 3rem;
+}
+.mod-forgot {
+	font-style: italic;
+}
+a { text-decoration: none }
