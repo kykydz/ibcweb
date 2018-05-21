@@ -18,48 +18,13 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="css/kustomize.css">
-    <link rel="stylesheet" type="text/css" href="css/multi-carousel.css">
 	<!-- <link rel="stylesheet" type="text/css" href="css/card-sliders.css"> -->
 
 </head>
 	
 <body>
 
-	<nav class="navbar fixed-top navbar-dark navbar-expand-md justify-content-center flex-nowarp">
-	    <div class="navbar-brand d-flex w-50 mr-auto">
-	    	<a href="#"><img src="image/ibc.png" class="img-fluid" width="150" height="auto"></a>
-	    </div>
-	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-	        <span class="navbar-toggler-icon"></span>
-	    </button>
-	    <div class="navbar-collapse collapse w-100" id="myNavbar">
-	        <ul class="navbar-nav w-100 justify-content-center">
-	            <li class="nav-item active">
-	                <a class="nav-link" href="#secthead">Beranda</a>
-	            </li>
-	            <li class="nav-item">
-	                <a class="nav-link" href="#sect2about">Tentang</a>
-	            </li>
-	            <li class="nav-item">
-	                <a class="nav-link" href="#sect3event">Event</a>
-				</li>
-				<li class="nav-item">
-	                <a class="nav-link" href="#sect4klinik">Klinik</a>
-				</li>
-				<li class="nav-item">
-	                <a class="nav-link" href="#sect5lowker">Lowker</a>
-	            </li>
-	        </ul>
-	        <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-	            <li class="nav-item" style="padding: 2%; width: 40%">
-	                <a href="#" class="nav-link btn btn-login" data-toggle="modal" data-target="#logins" >Masuk</a>
-	            </li>
-	            <li class="nav-item" style="padding: 2%; width: 40%">
-	                <a class="btn btn-reg nav-link" href="#">Daftar</a>
-	            </li>
-	        </ul>
-	    </div>
-	</nav>
+	<?php include 'header.php' ?>
 
 	<div class="modal fade" id="logins" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	  <div class="modal-dialog" role="document">
@@ -513,75 +478,7 @@
 			</div>
 		</div>
 	</section>
-	<footer id="kontaks">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-2" align="center">
-					<img src="image/ibc.png" class="img-fluid" width="180" height="auto">
-					<br>
-					<br>
-					<small style="text-align: left;">Support By : <br> <a href="wallezz.com">Wallezz Finansial Technology</a></small>
-				</div>
-				<div class="col-md-6">
-					<div class="row  justify-content-md-center">
-						<div class="col-md-auto">
-							<span class="foot-nav">FORUM</span>
-						</div>
-						<div class="col-md-auto">
-							<span class="foot-nav">KLINIK PERBANKAN</span>
-						</div>
-						<div class="col-md-auto">
-							<span class="foot-nav">EVENT PERBANKAN</span>
-						</div>
-						<div class="col-md-auto">
-							<span class="foot-nav">LOKER PERBANKAN</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-2">
-					<div class="row">
-						<div class="col">
-							<p><a href="#">Beranda</a></p>
-							<p><a href="#about">Tentang Kami</a></p>
-							<p><a href="#kontaks">Kontak</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-2">
-					<div class="row">
-						<div class="col-12">
-							<p>Hubungi Kami</p>
-							<p>Indonesia Bankers Club (1500046)</p>
-							<br>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-3" style="color: white">
-							<a href="#"><img src="image/glyph-fb.png" alt=""></a>
-						</div>
-						<div class="col-3" style="color: white">
-							<a href="#"><img src="image/glyph-yt.png" alt=""></a>
-						</div>
-						<div class="col-3" style="color: white">
-							<a href="#"><img src="image/glyph-ig.png" alt=""></a>
-						</div>
-						<div class="col-3" style="color: white">
-							<a href="#"><img src="image/glyph-twitter.png" alt=""></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<hr>
-			<div class="row">
-				<div class="col-md-6">
-					<small>&#169; Hak Cipta 2018 Indonesia Bankers Club</small>
-				</div>
-				<div class="col-md-6" align="right">
-					<small>Indonesia Bankers Club terdaftar dan diawasi oleh Otoritas Jasa Keuangan</small>
-				</div>
-			</div>
-		</div>
-	</footer>
+	<?php include 'footer.php' ?>
 	
 	<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
 	<script src="js/bootstrap.min.js"></script>
