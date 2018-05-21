@@ -1,9 +1,9 @@
-div {
+/*div {
 	border: solid 1px black;
 }
 section {
 	border: solid 1px black;
-}
+}*/
 
 body::-webkit-scrollbar {
     width: 0.7em;
@@ -586,3 +586,35 @@ a.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
 	margin: 0;
 	padding: 0;
 }
+
+
+/*================================================================== detail event =================================================*/
+.ev-head img{
+	object-fit: contain;
+	width: 100%;
+}
+
+.ev-desc {
+	padding: 2% 2%;
+}
+.ev-desc .ev-tittle {
+	font-size: 2em;
+	font-weight: bold;
+	color: #257bba;
+}
+.ev-content {
+	font-size: 1em;
+	color: #666666;
+}
+.ev-detail {
+	padding: 3% 0;
+	color: black;
+}
+.ev-detail p{
+	text-indent: 2%;
+}
+.f1 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.f1 p{color: #ADA6A6}
