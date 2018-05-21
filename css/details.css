@@ -1,0 +1,27 @@
+.head-tittle h1, h2, h3, h4, h5, h6{
+	font-size: 2em;
+	font-weight: 500;
+	padding-top: 10%;
+}
+.head-tittle p{
+	font-size: 1em;
+}
+
+
+.img-loker {
+	overflow-y: hidden;
+	overflow-x: hidden;
+	height: 40vh;
+	width: 100%;
+}
+.img-loker img {
+	width: 100%;
+	object-fit: cover;
+}
+
+span.sub-desc{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #257bba;
+	padding: 10% 0;
+}

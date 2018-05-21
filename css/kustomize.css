@@ -1,9 +1,9 @@
-/*div {
+div {
 	border: solid 1px black;
 }
 section {
 	border: solid 1px black;
-}*/
+}
 
 body::-webkit-scrollbar {
     width: 0.7em;
@@ -65,18 +65,12 @@ body {
 	padding: 20vh 2%;
 	color: white;	
 }
-.konten-jumbo h1, h2, h3, h4 { 
-	line-height: 100%; 
-	-webkit-text-stroke-width: 1px;
-  	-webkit-text-stroke-color: #257bba; 
-}
+
 .konten-jumbo p {
 	font-size: 0.875em;
 }
 .ex { 	
 	font-size: 1.1em;
-	-webkit-text-stroke-width: 1px;
-  	-webkit-text-stroke-color: white; 
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~SECTION 2 About~~~~~~~~~~~~~~~~~~~~~~~~*/
