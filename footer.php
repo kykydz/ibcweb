@@ -38,8 +38,9 @@
 				<div class="col-md-4 offset-md-3">
 					<div class="row">
 						<div class="col-12">
-							<p>Hubungi Kami</p>
-							<p>Indonesia Bankers Club (1500046)</p>
+							<p>Perkumpulan Indonesian Bankers Communiti</p>
+							<p>Email: <a href="#">sekretariatpusat.ibc@gmail.com</a></p>
+							<p>Jl. Lodaya No.32, Bandung</p>
 							<br>
 						</div>
 					</div>
